@@ -40,7 +40,7 @@ const Footer = () => {
           </Link>
           <Divider orientation="vertical" flexItem />
           <Link
-            href="https://github.com/"
+            href="https://github.com/Yeffej/portfolio"
             color="text.primary"
             target="_blank"
             rel="noopener"
