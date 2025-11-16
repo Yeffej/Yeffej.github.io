@@ -24,7 +24,9 @@ const NavItems = () => (
   >
     {navLinks.map((item) => (
       <ListItem key={item.id} disablePadding>
-        <ListItemButton href={item.href} sx={{ textAlign: "center" }}>
+        <ListItemButton 
+          href={item.href} 
+          sx={{ textAlign: "center", borderRadius: 6, '&:hover': { bgcolor: "#1e3ffcff" } }}>
           <ListItemText
             primary={item.name}
             slotProps={{ primary: {
